@@ -47,6 +47,8 @@ vagrant up
 
 - Use the left-hand panel to navigate to the Visualizatons tab to create diagrams, chrarts, pies etc. Saved visualizations can be imported into the Dashboard. 
 
-For example, you can create a Dashboard to view detailed stats based on your syslog messages and what is the response codes count of Ngninx server.
+<img src="diagrams/visualize.png" />
+
+- For example, you can create a Dashboard to view detailed stats based on your syslog messages and what is the response codes count of Ngninx server.
 
 <img src="diagrams/dashboard.png" />
