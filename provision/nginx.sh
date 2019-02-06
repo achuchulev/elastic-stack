@@ -9,6 +9,20 @@ apt install nginx -y
 systemctl enable nginx
 systemctl start nginx
 
+# Stop nginx service
+systemctl stop nginx.service
+
+# Remove default conf of nginx
+[ -f /etc/nginx/sites-available/default ] && {
+ sudo rm -fr /etc/nginx/sites-available/default
+}
+
+# Copy our nginx conf
+cp vagrant/config/nginx.conf /etc/nginx/sites-available/default
+
+# Start nginx service
+systemctl start nginx.service
+
 # Install java
 apt install openjdk-8-jdk -y
 
