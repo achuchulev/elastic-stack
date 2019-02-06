@@ -22,7 +22,7 @@ cd elastic-stack
 vagrant up
 ```
 
-- `Vagrant up` will spin 2 VMs: 
+- `Vagrant up` will start 2 VMs: 
 
   - VM 1 runs Filebeat, Elasticsearch and Kibana - Filebeat collects all system logs and ship them to Elasticsearch
   - VM 2 runs Nginx and Logstash - Logstash ships nginx logs to Elasticsearch
@@ -41,7 +41,7 @@ vagrant up
 
 <img src="diagrams/indexes.png" />
 
-- Click the Discover link in the left-hand navigation bar. On the Discover page, select the predefined filebeat* index pattern to see Filebeat data. By default, this will show you all of the log data over the last 15 minutes. You will see a histogram with log events, and some log messages below:
+- From the Discover tab in the left-hand navigation bar, select the predefined filebeat* index pattern to see Filebeat data. By default, this will show you all of the log data over the last 15 minutes. You will see a histogram with log events, and some log messages below:
 
 <img src="diagrams/index1.png" />
 
