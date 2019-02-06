@@ -45,7 +45,7 @@ vagrant up
 
 <img src="diagrams/index1.png" />
 
-- Use the left-hand panel to navigate to the Visualizatons tab to create diagrams, chrarts, pies etc. Saved visualizations can be imported into the Dashboard. 
+- Use the left-hand panel to navigate to the Visualizatons tab to create diagrams, charts, pies etc. Saved visualizations can be imported into a Dashboard. 
 
 <img src="diagrams/visualize.png" />
 
