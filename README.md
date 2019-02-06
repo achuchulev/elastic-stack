@@ -24,8 +24,8 @@ vagrant up
 
 - `Vagrant up` will spin 2 VMs: 
 
-  - elastic VM: Filebeat, Elasticsearch and Kibana - Filebeat collect all system logs and ship them to Elasticsearch
-  - nginx VM: Nginx and Logstash - Logstash ship nginx logs to Elasticsearch
+  - VM 1 runs Filebeat, Elasticsearch and Kibana - Filebeat collects all system logs and ship them to Elasticsearch
+  - VM 2 runs Nginx and Logstash - Logstash ships nginx logs to Elasticsearch
 
 - All logs are shiped to Elasticsearch where being indexed. Kibana provides powerfull interface that lets us visualize our Elasticsearch data.
 
