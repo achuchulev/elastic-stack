@@ -18,7 +18,7 @@ systemctl stop nginx.service
 }
 
 # Copy our nginx conf
-cp vagrant/config/nginx.conf /etc/nginx/sites-available/default
+cp /vagrant/config/nginx.conf /etc/nginx/sites-available/default
 
 # Start nginx service
 systemctl start nginx.service
